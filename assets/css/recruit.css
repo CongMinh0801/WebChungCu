@@ -1,0 +1,156 @@
+.recruit__container {
+    padding: 78px 0;
+    text-align: center;
+    background-color: rgba(80, 255, 228, 0.25);
+    position: relative;
+}
+
+.recruit__container-title{
+    
+}
+
+.recruit__container-title-slogan {
+    font-size: 6rem;
+    font-weight: 900;
+    color: var(--primary-color-dark);
+    margin-top: 76px;
+}
+
+.recruit__container-title-text {
+    font-size: 1.8rem;
+}
+
+.recruit__container-form {
+    border: 1px solid var(--primary-color-dark);
+    border-radius: 20px;
+    width: 70%;
+    margin: 0 15%;
+    background-color: var(--white-color);
+    padding: 12px 48px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.recruit__container-form-title {
+    font-size: 3.2rem;
+    color: var(--primary-color);
+}
+
+.recruit__container-form-fullname {
+
+}
+
+.recruit__container-form-fullname-input {
+
+}
+
+.recruit__container-form-birth_gender {
+    display: flex;
+    height: 40px;
+}
+
+.recruit__container-form-birth-input {
+    margin-left: 12px;
+    margin-right: 48px;
+    padding-left: 8px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.recruit__container-form-gender {
+
+}
+
+.recruit__container-form-gender-select {
+    margin-left: 12px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.recruit__container-form-gender-option {
+    cursor: pointer;
+}
+
+.recruit__container-form-hometown {
+
+}
+
+.recruit__container-form-hometown-input {
+
+}
+
+.recruit__container-form-education {
+
+}
+
+.recruit__container-form-education-input {
+
+}
+
+.recruit__container-form-detail {
+
+}
+
+.recruit__container-form-detail-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+.recruit__container-form-submit {
+    width: 100%;
+    margin: 48px 0;
+    height: 60px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+}
+
+.recruit__container-form-submit:hover {
+    background-color:var(--white-color);
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+
+.recruit__container-form-fullname,
+.recruit__container-form-birth_gender,
+.recruit__container-form-hometown,
+.recruit__container-form-education,
+.recruit__container-form-detail {
+    font-size: 1.8rem;
+    margin: 4px 0;
+}
+
+.recruit__container-form-fullname-input,
+.recruit__container-form-hometown-input,
+.recruit__container-form-education-input {
+    height: 60px;
+    width: 100%;
+    margin-bottom: 16px;
+    margin-top: 2px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    font-size: 1.8rem;
+}
+
+
+.notify {
+    position: fixed;
+    height: 200px;
+    width: 40%;
+    text-align: center;
+    font-size: 1.8rem;
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    margin-left: 30%;
+    padding: 66px 36px;
+    box-sizing: border-box;
+    top: 200px;
+    z-index: 10;
+    border: 4px dashed rgb(14, 162, 247);
+    display: none;
+}

@@ -1,0 +1,94 @@
+body {
+    background-color: rgba(80, 255, 228, 0.25);
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: block;
+    background-color: var(--white-color);
+    width: 20%;
+    height: 640px;
+    padding: 32px;
+    margin-top: 100px;
+    border-radius: 12px;
+}
+
+.form-title {
+    color: var(--primary-color);
+    font-size: 2.8rem;
+    margin-top: 0;
+}
+
+div>label {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    margin-bottom: 4px;
+}
+
+div>input {
+    height: 32px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 16px;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+div>select {
+    height: 32px;
+    width: 100%;
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    padding: 0 12px;
+}
+
+.house_img>input {
+    padding: 0;
+}
+
+.managepage_btn {
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    font-size: 1.8rem;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+}
+
+.managepage_btn:hover {
+    cursor: pointer;
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+
+.managepage_btn>a{
+    text-decoration: none;
+    color: var(--white-color);
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 36px;
+}
+
+.managepage_btn:hover a{
+    color: var(--primary-color);
+}
+
+.submit_btn>input{
+    background-color: var(--primary-color-dark);
+    color: var(--white-color);
+    border: 1px solid var(--primary-color-dark);
+    border-radius: 4px;
+    height: 40px;
+}
+
+
+.submit_btn>input:hover {
+    background-color: var(--white-color);
+    color: var(--primary-color-dark);
+    cursor:pointer;
+}

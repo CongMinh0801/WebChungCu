@@ -1,0 +1,85 @@
+body {
+    
+    background-color:  rgba(80, 255, 228, 0.25);
+}
+.product-title {
+    font-size: 5rem;
+    text-align: center;
+    display: block;
+    padding-top: 120px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    background-clip: content-box;
+    background-color: var(--primary-color-dark);
+    color: var(--white-color);
+}
+
+.product-container {
+
+}
+
+.product-container__categories {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 36px;
+}
+
+.product-container__categories-type {
+    width: 20%;
+}
+
+
+.product-container__categories-location {
+    width: 36%;
+}
+
+
+.product-container__categories-cities {
+    width: 20%;
+}
+
+
+.product-container__categories-type,
+.product-container__categories-location,
+.product-container__categories-cities {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-container__houses {
+    margin-bottom: 72px;
+}
+
+.product-container__houses-row {
+
+}
+
+.product-container__categories-item{
+    font-size: 1.4rem;
+    height: 28px;
+    line-height: 20px;
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 16px;
+}
+
+.product-container__categories-item:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.product-container__categories-item.active {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.container__house-list-column {
+    margin-bottom: 8px;
+}
+
